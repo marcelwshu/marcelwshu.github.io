@@ -34,6 +34,12 @@ footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
 
+	.responsive-video {
+		width: 100%;
+		max-width: 520px; /* Optional: Set a maximum width */
+		height: auto;
+	}	
+
 body {
 	line-height: 1;
 }
