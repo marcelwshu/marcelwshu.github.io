@@ -10,6 +10,16 @@
 		$body = $('body'),
 		$nav = $('#nav');
 
+
+
+		document.addEventListener('DOMContentLoaded', function() {
+			var videos = document.querySelectorAll('video');
+			videos.forEach(function(video) {
+				video.preload = 'auto';
+			});
+		});
+
+
 	// Breakpoints.
 		breakpoints({
 			wide:      [ '961px',  '1880px' ],
